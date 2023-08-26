@@ -19,14 +19,39 @@ body {
 
 }
 
+/* style image logo */
 #logo img {
     width: 200px;
     height: 200px;
 }
 /* Header */
 header {
-    background-color: antiquewhite;
+    background-color: #f6bfc0;
 
+}
+
+
+nav ul {
+    display: inline-block;
+    flex: center;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    /* Use flexbox to create a horizontal layout */
+    background-color: #f6bfc0;
+    /* Add some padding to space out the items */
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.navigation li {
+    margin-right: 20px;
+    /* Add some margin between the items */
+    font-weight: bold;
+    color: #3a3a3a;
 }
 /* Main */
 main {
@@ -36,5 +61,5 @@ main {
 }
 /* Footer */
 footer {
-    background-color: antiquewhite;
+    background-color: #facd48;
 }
