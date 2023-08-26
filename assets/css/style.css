@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300&display=swap');
+
 /* Asterisk wildcard selector to override default styles */
 * {
     padding: 0;
@@ -11,7 +14,14 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    /* add font family to body */
+    font-family: 'montserrat', sans-serif;
 
+}
+
+#logo img {
+    width: 200px;
+    height: 200px;
 }
 /* Header */
 header {
