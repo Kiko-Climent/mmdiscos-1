@@ -1,0 +1,19 @@
+/* Asterisk wildcar selector to override default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    background-color: antiquewhite;
+
+}
+/* Main */
+main {
+    background-color: blue;
+}
+/* Footer */
+footer {
+    background-color: antiquewhite;
+}
