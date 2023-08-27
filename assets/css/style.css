@@ -23,6 +23,7 @@ body {
 #logo img {
     width: 200px;
     height: 200px;
+    mix-blend-mode: multiply;
 }
 /* Header */
 header {
