@@ -23,6 +23,7 @@ body {
 #logo img {
     width: 200px;
     height: 200px;
+/* add style to logo to blend it */    
     mix-blend-mode: multiply;
 }
 /* Header */
@@ -74,4 +75,5 @@ main {
 /* Footer */
 footer {
     background-color: #facd48;
+   
 }
