@@ -72,21 +72,34 @@ main {
     /* Make main element to push foother down */
     flex: 1 0 auto;
 }
-.content {
+
+  /* NEW */
+.new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+.last-releases {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-.item {
-    width: 100px;
-    height: 100px;
+.new-item {
+    width: 300px;
+    height: 300px;
     background-color: #e0e0e0;
     margin: 10px;
   }
 
-  /* NEW */
-
+.last {
+    width: 200px;
+    height: 200px;
+    background-color: #f6bfc0;
+    margin: 10px;
+  }
 /* Footer */
 footer {
     background-color: #facd48;
