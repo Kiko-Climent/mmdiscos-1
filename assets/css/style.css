@@ -72,8 +72,36 @@ main {
     /* Make main element to push foother down */
     flex: 1 0 auto;
 }
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    margin: 10px;
+  }
+
+  /* NEW */
+
 /* Footer */
 footer {
     background-color: #facd48;
    
+}
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
