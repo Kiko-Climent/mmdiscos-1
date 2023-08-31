@@ -18,7 +18,13 @@ body {
     font-family: 'montserrat', sans-serif;
 
 }
-
+/* add style to Header */
+header {
+    background-color: #f6bfc0;
+    display: flex;
+    align-items: center;
+    
+}
 /* style image logo */
 #logo img {
     width: 200px;
@@ -26,10 +32,9 @@ body {
 /* add style to logo to blend it */    
     mix-blend-mode: multiply;
 }
-/* Header */
-header {
-    background-color: #f6bfc0;
 
+header h1 {
+    font-size: 150;
 }
 
 
