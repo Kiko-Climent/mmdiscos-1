@@ -39,17 +39,33 @@
     </header>
     <main>
       <section>
-        <div class="past-releases">
-            <img src="../mmdiscos-v3/assets/releases-images/losttapes.jpeg" alt="The Lost Tapes" class="past-image">
-            <h3>FLORIN BÜCHEL</h3>
-            <h4>The Lost Tapes</h4>
-          </div>
-        
-          <div class="past-releases">
-            <img src="../mmdiscos-v3/assets/releases-images/saturn.jpeg" alt="Fortress of Suara" class="past-image">
-            <h3>SATURN</h3>
-            <h4>Fortress of Suara</h4>
-          </div>
+        <h1>Get in Touch</h1>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="apellidos">Surname:</label>
+        <input type="text" id="Surname" name="surname" required><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="comentarios">Coments:</label>
+        <textarea id="coments" name="coments" rows="4" cols="50"></textarea><br>
+
+        <label for="edad">Edad:</label>
+        <select id="edad" name="edad" required>
+            <option value="" disabled selected>Your Age:</option>
+            <option value="16-20">16 - 20</option>
+            <option value="21-30">21 - 30</option>
+            <option value="31-40">31 - 40</option>
+            <option value="41-50">41 - 50</option>
+            <option value="51+">More than 50</option>
+        </select><br>
+
+        <input type="submit" value="send">
+    </form>
+
       </section>
     </main>
     <footer><ul id="social-networks">
