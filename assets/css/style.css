@@ -75,25 +75,20 @@ nav ul {
 main {
     background-color: cornflowerblue;
     /* Make main element to push foother down */
-    flex: 1 0 auto;
+    flex: 0 0 auto;
 }
 
   /* Main Section */
 
-  /* add style to newcomers and last releases */
+  /* add style to newcomers */
 .new {
-    display: flex;
-    justify-content: center;
-    
-  }
-
-.last {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
   
-.new-item {
+.new-release {
     margin: 20px 20px;
     padding: 20px 20px;
     text-align: center;
@@ -104,12 +99,23 @@ main {
     height: 300px;
     
 }
+/* add style to past releases */
+.past {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
 
-.last-releases {
-    width: 200px;
-    height: 200px;
-    background-color: #f6bfc0;
+.past-releases {
     margin: 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+.past-image {
+    width: 150px;
+    height: 150px;
 }
 /* Footer */
 footer {
