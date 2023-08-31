@@ -37,7 +37,7 @@ header h1 {
     font-size: 150;
 }
 
-
+/* MM DISCOS navbar section */
 nav ul {
     display: inline-block;
     flex: center;
@@ -78,8 +78,6 @@ main {
     flex: 1 0 auto;
 }
 
-  /* Main Section */
-
   /* add style to newcomers */
 .new {
     display: flex;
@@ -117,8 +115,25 @@ main {
     width: 250px;
     height: 250px;
 }
-
-/* MM DISCOS navbar section */
+/* styles to casts */
+.casts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+.djmix {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    
+  }
+.cast-image {
+    width: 250px;
+    height: 250px;
+    
+}
 
 /* Footer */
 footer {
