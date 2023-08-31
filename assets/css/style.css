@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;900&display=swap');
 
 /* Asterisk wildcard selector to override default styles */
 * {
@@ -7,6 +7,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* add style to Header */
+header {
+    background-color: #f6bfc0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    position: fixed;
+    width: 100vw;   
+}
+header h1 {
+    font-size: 150;
+}
+#slogan {
+    font-weight: bold;
+}
+/* style image logo */
+#logo img {
+    width: 120px;
+    height: 120px;
+/* add style to logo to blend it */    
+    mix-blend-mode: multiply;
+}
+#cover {
+    mix-blend-mode: multiply;
+    
+}
+
+main {
+    padding-top: 144px;
+}
+
 /* General Styles */
 body {
     min-height: 100vh;
@@ -18,36 +51,16 @@ body {
     font-family: 'montserrat', sans-serif;
 
 }
-/* add style to Header */
-header {
-    background-color: #f6bfc0;
-    display: flex;
-    align-items: center;
-    
-}
-/* style image logo */
-#logo img {
-    width: 200px;
-    height: 200px;
-/* add style to logo to blend it */    
-    mix-blend-mode: multiply;
-}
 
-header h1 {
-    font-size: 150;
-}
+
+
+
 
 /* MM DISCOS navbar section */
-nav ul {
-    display: inline-block;
-    flex: center;
-}
-
 .navigation {
     list-style: none;
     display: flex;
     /* Use flexbox to create a horizontal layout */
-    background-color: #f6bfc0;
     /* Add some padding to space out the items */
     padding: 1;
     text-align: center;
@@ -142,7 +155,7 @@ footer {
 }
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -150,6 +163,6 @@ footer {
 
 #social-networks i {
     font-size: 120%;
-    padding: 5%;
+    padding: 0 5%;
     color: #3a3a3a;
 }
