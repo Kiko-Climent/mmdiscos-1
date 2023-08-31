@@ -144,7 +144,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     
-  }
+}
   
 .djmix {
     margin: 20px 20px;
@@ -156,6 +156,13 @@ main {
     width: 250px;
     height: 250px;
     
+}
+/* style to the image form */
+.newlogo {
+    align-content: center;
+    max-width: 500px;
+    max-height: 500px;
+    mix-blend-mode: multiply;
 }
 
 /* Footer */
