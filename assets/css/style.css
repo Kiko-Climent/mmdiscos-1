@@ -153,12 +153,26 @@ main {
     height: 250px;
     
 }
+/* MM Discos Section */
+
+/* style the body of seccion MM Discos */
+#mmdiscos {
+    margin: 30px 30px;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+#mmdiscos ul {
+    list-style: none;
+}
+
 /* Form */
 .get-in-touch {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin-left: 10%;
+    
 }
 
 .new-logo {
@@ -166,13 +180,9 @@ main {
     height: 600px;
     mix-blend-mode: multiply;
 }
-
-#signup {
+#contact {
     text-align: justify;
-    
-    
-    
-    
+    border: 4px solid #0e121e;
 }
 
 /* Footer */
