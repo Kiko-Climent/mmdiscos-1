@@ -155,15 +155,42 @@ main {
 }
 /* MM Discos Section */
 
-/* style the body of seccion MM Discos */
+/* Style the body of seccion MM Discos */
+
+/* style the second class of div */
+
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #mmdiscos {
-    margin: 30px 30px;
-    padding: 30px 30px;
+    margin: 50px 50px;
+    padding: 50px 50px;
     text-align: center;
 }
 
 #mmdiscos ul {
     list-style: none;
+}
+
+p {
+    max-width: 300px;
+    text-align: justify;
+}
+/* style purchase button */
+button {
+    background-color: #facd48;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+
+}
+button:hover {
+    background-color: #f6bfc0;
+    padding: 10px 20px;
+
 }
 
 /* Form */
