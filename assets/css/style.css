@@ -136,7 +136,7 @@ main {
     width: 250px;
     height: 250px;
 }
-/* styles to casts */
+/* styles to casts in main page */
 .casts {
     display: flex;
     flex-wrap: wrap;
@@ -158,7 +158,6 @@ main {
 
 /* Style the body of seccion MM Discos */
 
-/* style the second class of div */
 
 .catalogue {
     display: flex;
@@ -210,6 +209,14 @@ p {
     text-align: justify;
 }
 
+/* style cast section to make img on the right side (NOT SURE) add class= reverse-layout*/
+.reverse-layout {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.reverse-layout .podcast-image {
+    margin-left: 20px;
+}
 /* style purchase button */
 button {
     background-color: #facd48;
