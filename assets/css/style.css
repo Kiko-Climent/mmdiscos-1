@@ -34,6 +34,7 @@ header h1 {
 }
 #slogan {
     font-weight: bold;
+    color: #21339c;
     
 }
 /* style image logo */
@@ -77,9 +78,21 @@ body {
     margin-right: 20px;
     /* Add some margin between the items */
     font-weight: bold;
-    color: #3a3a3a;
+    
     
 }
+/* delete marked items in nav bar */
+
+.navigation a {
+    text-decoration: none;
+    color: #21339c;
+    transition: text-decoration 0.2s ease-in-out; 
+    border-bottom: 1px solid transparent;
+}
+.navigation a:hover {
+    border-bottom: 2px solid #21339c;
+    
+}    
 
 .nav-container {
     display: flex;
@@ -87,6 +100,7 @@ body {
     outline: 2px solid #f6bfc0;
     padding: 10px;
     background-color: #f6bfc0;
+    /* Delete marked items */
    
 }
 
@@ -217,6 +231,35 @@ p {
 .reverse-layout .podcast-image {
     margin-left: 20px;
 }
+/* Form */
+.get-in-touch {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    
+}
+.form > input {
+    display: flex;
+    align-items: center;
+
+}
+.new-logo {
+    width: 600px;
+    height: 600px;
+    mix-blend-mode: multiply;
+}
+#contact {
+    text-align: justify;
+    border: 4px solid #0e121e;
+    padding: 7px 7px;
+    border-radius: 20px;
+    color: #0e121e;
+}
+#coments {
+    display: flex;
+    align-items: flex-start;
+}
 /* style purchase button */
 button {
     background-color: #facd48;
@@ -231,27 +274,11 @@ button:hover {
 
 }
 
-/* Form */
-.get-in-touch {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: 10%;
+#submit {
+    font-size: 15px;
+    background-color: #facd48;
     
 }
-
-.new-logo {
-    width: 600px;
-    height: 600px;
-    mix-blend-mode: multiply;
-}
-#contact {
-    text-align: justify;
-    border: 4px solid #0e121e;
-    padding: 7px 7px;
-    border-radius: 20px;
-}
-
 /* Footer */
 footer {
     background-color: #facd48;
@@ -268,7 +295,7 @@ footer {
 #social-networks i {
     font-size: 120%;
     padding: 0 5%;
-    color: #3a3a3a;
+    color: #21339c;
 }
 
 /* add media styles phones */
