@@ -34,6 +34,7 @@ header h1 {
 }
 #slogan {
     font-weight: bold;
+    
 }
 /* style image logo */
 #logo img {
@@ -41,6 +42,7 @@ header h1 {
     height: 120px;
 /* add style to logo to blend it */    
     mix-blend-mode: multiply;
+   
 }
 #cover {
     mix-blend-mode: multiply;
@@ -151,7 +153,6 @@ main {
 .cast-image {
     width: 250px;
     height: 250px;
-    
 }
 /* MM Discos Section */
 
@@ -178,7 +179,37 @@ main {
 p {
     max-width: 300px;
     text-align: justify;
+} 
+/* seccion dj mixes */
+.podcasts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+.podcast-djmix {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.podcast-image {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}  
+
+.text-content {
+    flex-grow: 1;
+    width: 100%;
+}  
+.podcast-djmix p {
+    max-width: none;
+    width: 100%;
+    text-align: justify;
+}
+
 /* style purchase button */
 button {
     background-color: #facd48;
@@ -210,6 +241,8 @@ button:hover {
 #contact {
     text-align: justify;
     border: 4px solid #0e121e;
+    padding: 7px 7px;
+    border-radius: 20px;
 }
 
 /* Footer */
