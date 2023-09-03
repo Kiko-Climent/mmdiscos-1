@@ -124,9 +124,14 @@ main {
     
   }
 .new-image {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     
+}
+.highlight-img {
+    border: solid 3px #facd48;
+    border-radius: 0;
+    padding: 10px 10px;
 }
 /* add style to past releases */
 .past {
@@ -139,15 +144,17 @@ main {
   }
 
 .past-releases {
-    
     padding: 20px 20px;
     text-align: center;
     width: 33.3%;
    
 }
 .past-image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
+    border: solid 3px #21339c;
+    border-radius: 0;
+    padding: 10px 10px;
 }
 /* styles to casts in main page */
 .casts {
@@ -169,17 +176,21 @@ main {
 .cast-image {
     width: 300px;
     height: 300px;
+    border: solid 3px #f6bfc0;
+    border-radius: 0;
+    padding: 10px 10px;
 }
 /* MM Discos Section */
 
 /* Style the body of seccion MM Discos */
 
 
-.catalogue {
+.new-catalogue {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 #mmdiscos {
@@ -193,7 +204,7 @@ main {
 }
 
 p {
-    max-width: 300px;
+    max-width: 350px;
     text-align: justify;
 }
 
