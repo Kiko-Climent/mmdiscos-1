@@ -14,86 +14,134 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px 10px 10px;  /* 0 1rem */
+    padding: 10px 20px 10px 10px;
+    /* 0 1rem */
     position: fixed;
-    width: 100vw; /* 100% */
-    z-index: 99;  /* styling mobile */
+    width: 100vw;
+    /* 100% */
+    z-index: 99;
+    /* styling mobile */
 }
+
 header h1 {
     font-size: 150;
 }
+
 #slogan {
     font-weight: bold;
     color: #21339c;
-    
+
 }
+
 /* style image logo */
 #logo img {
     width: 120px;
     height: 120px;
-/* add style to logo to blend it */    
+    /* add style to logo to blend it */
     mix-blend-mode: multiply;
-   
+
 }
 
 
 
 #cover {
     mix-blend-mode: multiply;
-    
+
 }
+
 main {
     padding-top: 144px;
 }
+
 /* General Styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */ /* color: #21339c */
-    color: #3a3a3a;   
+    /* Generic project styles */
+    /* color: #21339c */
+    color: #3a3a3a;
     /* add font family to body */
     font-family: 'montserrat', sans-serif;
 
 }
+
 /* MM DISCOS navbar section */
 .navigation {
     list-style: none;
     display: flex;
     /* Use flexbox to create a horizontal layout */
     /* Add some padding to space out the items */
-    
+
 
     padding: 1;
     text-align: center;
-    
+
 }
 
 .navigation li {
     margin-right: 20px;
     /* Add some margin between the items */
     font-weight: bold;
-    
-    
+
+
 }
+
 /* delete marked items in nav bar */
 .navigation a {
     text-decoration: none;
     color: #21339c;
-    transition: text-decoration 0.2s ease-in-out; 
+    transition: text-decoration 0.2s ease-in-out;
     border-bottom: 1px solid transparent;
 }
+
 /* add personalized underline */
 .navigation a:hover {
     border-bottom: 2px solid #21339c;
-    
-}    
-.nav-container {
+
+}
+
+.nav-container#nav-desktop {
     display: flex;
     justify-content: center;
     outline: 2px solid #f6bfc0;
     padding: 10px;
     background-color: #f6bfc0;
+}
+.nav-container#nav-mobile {
+    display: none;
+    position: relative;
+
+    
+}
+.nav-container#nav-mobile ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+}
+
+.nav-container#nav-mobile ul li a {
+    padding: 12px;
+    text-decoration: none; 
+    display: block;  
+}
+.nav-container#nav-mobile ul li a:hover {
+    background-color: #0e121e;
+    color: white;
+    
+}
+
+.nav-container#nav-mobile:hover ul{
+    display: block;
+
+
+    
+    
 }
 
 /* Main */
@@ -103,25 +151,35 @@ main {
     flex: 1 0 auto;
 }
 
-  /* add style to newcomers */
+/* add style to newcomers */
 .new {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-  }
-  
+}
+
 .new-release {
     margin: 20px 30px;
     padding: 20px 20px;
     text-align: center;
+    width: 100%;
+    max-width: 350px;
     
-  }
-.new-image {
-    width: 350px;
-    height: 350px;
-    
+
 }
+
+.highlights .new-release {
+    
+    max-width: 400px;
+
+}
+.new-image {
+    width: 100%;
+    height: auto;
+
+}
+
 /* Spotlight the images by adding a border */
 .highlight-img {
     border: solid 3px #facd48;
@@ -130,6 +188,7 @@ main {
     width: 400px;
     height: 400px;
 }
+
 /* add style to past releases */
 .past {
     display: flex;
@@ -138,14 +197,15 @@ main {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+}
 
 .past-releases {
     padding: 20px 20px;
     text-align: center;
     width: 33.3%;
-   
+
 }
+
 .past-image {
     width: 300px;
     height: 300px;
@@ -153,23 +213,28 @@ main {
     border-radius: 0;
     padding: 10px 10px;
 }
+
 /* styles to casts in main page */
 .casts {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* center */ /* space between if they are 3 items?*/
-    
+    justify-content: space-around;
+    /* center */
+    /* space between if they are 3 items?*/
+
 }
-  
+
 .djmix {
     margin: 20px 20px;
     padding: 20px 20px;
     text-align: center;
-    
+
 }
-.djmix > p {
+
+.djmix>p {
     text-align: center;
 }
+
 .cast-image {
     width: 300px;
     height: 300px;
@@ -177,6 +242,7 @@ main {
     border-radius: 0;
     padding: 10px 10px;
 }
+
 /* MM Discos Section */
 
 /* Style the body of seccion MM Discos */
@@ -187,7 +253,7 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    
+
 }
 
 #mmdiscos {
@@ -201,7 +267,7 @@ main {
 }
 
 p {
-    max-width: 350px;
+    
     text-align: justify;
 }
 
@@ -223,25 +289,17 @@ p {
     width: 300px;
     height: 300px;
     margin-right: 20px;
-}  
+}
 
 .text-content {
     flex-grow: 1;
     width: 100%;
-}  
+}
+
 .podcast-djmix p {
     max-width: none;
     width: 100%;
     text-align: justify;
-}
-
-/* style cast section to make img on the right side (NOT SURE) add class= reverse-layout*/
-.reverse-layout {
-    flex-direction: row-reverse;
-    text-align: right;
-}
-.reverse-layout .podcast-image {
-    margin-left: 20px;
 }
 /* Form */
 .get-in-touch {
@@ -249,16 +307,19 @@ p {
     align-items: center;
     flex-wrap: wrap;
     margin-left: 10%;
-}   
-.form > input {
+}
+
+.form>input {
     display: flex;
     align-items: center;
 }
+
 .new-logo {
     width: 600px;
     height: 600px;
     mix-blend-mode: multiply;
 }
+
 #contact {
     text-align: justify;
     border: 4px solid #0e121e;
@@ -266,6 +327,17 @@ p {
     border-radius: 20px;
     color: #0e121e;
 }
+#contact input,
+#contact select,
+#contact textarea {
+    width: 100%;
+
+}
+
+
+
+
+
 #coments {
     display: flex;
     align-items: flex-start;
@@ -280,11 +352,13 @@ button {
     padding: 4px 4px;
 
 }
+
 button:hover {
     background-color: #f6bfc0;
     padding: 10px 20px;
 
 }
+
 #submit {
     font-size: 15px;
     background-color: #facd48;
@@ -294,8 +368,9 @@ button:hover {
 /* Footer */
 footer {
     background-color: #facd48;
-   
+
 }
+
 #social-networks {
     text-align: center;
     padding: 10px 0;
@@ -310,100 +385,289 @@ footer {
     color: #21339c;
 }
 
+
 /* Add media styles phones */
-@media only screen and (max-width: 600px) {
-   
-    .nav-container {
+
+/* Styles for medium devices (e.g., iPads) */
+@media only screen and (max-width: 1350px) {
+    .get-in-touch {
+        flex-direction: column; /* Revert to horizontal layout */
+        justify-content: center; /* Center-align elements */
+        margin-left: initial; /* Restore left margin */
+    }
+
+    .new-logo {
+        width: 300px; /* Adjust image width for tablets */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #contact {
+        max-width: 400px; /* Limit the contact container width */
+        text-align: justify; /* Justify text for better readability */
+        border: 4px solid #0e121e;
+        padding: 10px; /* Increase padding for better spacing */
+        border-radius: 20px;
+        color: #0e121e;
+        margin-left: 20px; /* Add spacing between image and contact */
+    }
+
+    #coments {
+        width: 400px; /* Limit the comments section width */
+        margin-top: 20px; /* Add spacing at the top */
+    }
+
+    /* Style the form inputs and submit button */
+    .form {
+        margin-top: 20px; /* Add spacing at the top */
+    }
+
+    .form > label,
+    .form > input,
+    .form > select,
+    .form > textarea {
+        width: 100%; /* Make form elements occupy full width */
+        margin-bottom: 10px; /* Add spacing between form elements */
+    }
+
+    /* Add this style to fix textarea overflow */
+    .form > textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        box-sizing: border-box; /* Ensure textarea respects the border box */
+    }
+
+    /* Style the purchase button */
+    #submit {
+        font-size: 15px;
+        background-color: #facd48;
+        padding: 10px 20px; /* Increase padding for better touch interaction */
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #submit:hover {
+        background-color: #f6bfc0;
+    }
+}
+/* Styles for screens between 600px and 992px (medium-sized screens) */
+@media only screen and (max-width: 992px) {
+
+    .nav-container#nav-desktop {
+        display: none;
+        
+    }
+    .nav-container#nav-mobile {
+        display: block;
+        
+    }
+    
+    /* Add this style to adjust the spacing between the images */
+    .past-releases {
+        width: 100%; /* Adjust the width to fit two items in a row */
+        margin: 10px; /* Add margin for spacing between items */
+    }
+
+    /* Add this style to center the items */
+    .past {
         justify-content: center;
     }
+}
+
+
+/* Styles for screens 768 ?? */
+@media only screen and (max-width: 768px) {
+    
+
+   
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
     .navigation {
         flex-direction: column;
         text-align: center;
     }
+
     .navigation li {
         margin: 10px 0;
     }
+
     /* Adjust main content for mobile phones */
 
     main {
         padding-top: 80px;
     }
-    .new-release, .past-releases {
+
+    .new-release,
+    .past-releases {
         margin: 20px 10px;
         padding: 20px 10px;
     }
-    .new-image, .past-image {
+
+    .new-image,
+    .past-image {
         width: 100%;
         height: auto;
     }
+
     /* Add more main content styles for mobile here */
     img {
         max-width: 100%;
         height: auto;
     }
+
     .highlight-img {
         width: 100%;
         height: auto;
     }
+
     .past {
         flex-direction: column;
         align-items: center;
     }
+
     .past-releases {
-        width: 100%; /* Make each release occupy full width on mobile */
-        margin: 20px 0; /* Add spacing between releases */
+        width: 100%;
+        /* Make each release occupy full width on mobile */
+        margin: 20px 0;
+        /* Add spacing between releases */
     }
+
     .past-image {
-        width: 100%; /* Make images occupy full width on mobile */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        /* Make images occupy full width on mobile */
+        height: auto;
+        /* Maintain aspect ratio */
     }
+
     .past-releases h3,
     .past-releases h4 {
-        text-align: center; /* Center-align text */
+        text-align: center;
+        /* Center-align text */
     }
+
     .casts {
         flex-direction: column;
         align-items: center;
     }
+
     .djmix {
         margin: 0px 10px;
         padding: 20px 10px;
         text-align: center;
     }
+
     .cast-image {
         width: 100%;
         height: auto;
     }
+
     .new-catalogue {
         flex-direction: column;
         align-items: center;
     }
+
     #mmdiscos {
         margin: 10px 10px;
         padding: 20px 10px;
     }
+
     p {
         max-width: 100%;
         text-align: justify;
     }
+
     .podcasts {
         align-items: center;
     }
+
     .podcast-djmix {
         flex-direction: column;
         align-items: center;
         margin: 20px 10px;
         padding: 20px 10px;
     }
+
     .podcast-image {
         width: 100%;
         height: auto;
         margin-right: 0;
-        margin-bottom: 10px; /* Add some spacing between podcasts */
+        margin-bottom: 10px;
+        /* Add some spacing between podcasts */
+    }
+
+    /* style contact form for mobiles */
+    .get-in-touch {
+        flex-direction: column;
+        /* Stack elements vertically */
+        align-items: flex-start;
+        /* Align elements to the left */
+        margin-left: 0;
+        /* Remove left margin */
+    }
+
+    .new-logo {
+        width: 100%;
+        /* Make the image occupy full width */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    #contact {
+        max-width: 100%;
+        /* Make the contact container occupy full width */
+        text-align: center;
+        /* Center-align text */
+        border: 2px solid #0e121e;
+        /* Reduce border thickness */
+        padding: 10px;
+        /* Increase padding for better spacing */
+        border-radius: 10px;
+        /* Add rounded corners */
+        margin-top: 10px;
+        /* Add spacing at the top */
+        color: #0e121e;
+    }
+
+    #coments {
+        width: 100%;
+        /* Make the comments section occupy full width */
+        margin-top: 10px;
+        /* Add spacing at the top */
+    }
+
+    /* Style the form inputs and submit button */
+    .form {
+        margin-top: 10px;
+        /* Add spacing at the top */
+    }
+
+    .form>label,
+    .form>input,
+    .form>select,
+    .form>textarea {
+        width: 100%;
+        /* Make form elements occupy full width */
+        margin-bottom: 10px;
+        /* Add spacing between form elements */
+    }
+
+    /* Style the purchase button */
+    #submit {
+        width: auto;
+        /* Auto width for the submit button */
+        font-size: 15px;
+        background-color: #facd48;
+        padding: 10px 20px;
+        /* Increase padding for better touch interaction */
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #submit:hover {
+        background-color: #f6bfc0;
     }
 }
-
-
-    
-   
 
