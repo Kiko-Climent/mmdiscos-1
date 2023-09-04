@@ -14,20 +14,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 20px 10px 10px;  /* 0 1rem */
     position: fixed;
-    width: 100vw;   
-}
-
-/* add style to sublabel header */
-header {
-    background-color: #f6bfc0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px 10px 10px;
-    position: fixed;
-    width: 100vw; 
+    width: 100vw; /* 100% */
+    z-index: 99;  /* styling mobile */
 }
 header h1 {
     font-size: 150;
@@ -45,6 +35,9 @@ header h1 {
     mix-blend-mode: multiply;
    
 }
+
+
+
 #cover {
     mix-blend-mode: multiply;
     
@@ -69,6 +62,8 @@ body {
     display: flex;
     /* Use flexbox to create a horizontal layout */
     /* Add some padding to space out the items */
+    
+
     padding: 1;
     text-align: center;
     
@@ -114,11 +109,10 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    
   }
   
 .new-release {
-    margin: 20px 20px;
+    margin: 20px 30px;
     padding: 20px 20px;
     text-align: center;
     
@@ -128,10 +122,13 @@ main {
     height: 350px;
     
 }
+/* Spotlight the images by adding a border */
 .highlight-img {
     border: solid 3px #facd48;
     border-radius: 0;
     padding: 10px 10px;
+    width: 400px;
+    height: 400px;
 }
 /* add style to past releases */
 .past {
@@ -194,7 +191,7 @@ main {
 }
 
 #mmdiscos {
-    margin: 30px 30px;
+    margin: 10px 30px 10px 30px;
     padding: 30px 30px;
     text-align: center;
 }
@@ -256,7 +253,6 @@ p {
 .form > input {
     display: flex;
     align-items: center;
-
 }
 .new-logo {
     width: 600px;
@@ -274,12 +270,14 @@ p {
     display: flex;
     align-items: flex-start;
 }
+
 /* style purchase button */
 button {
     background-color: #facd48;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 13px;
+    padding: 4px 4px;
 
 }
 button:hover {
@@ -287,10 +285,10 @@ button:hover {
     padding: 10px 20px;
 
 }
-
 #submit {
     font-size: 15px;
-    background-color: #facd48;   
+    background-color: #facd48;
+    padding: 4px 4px;
 }
 
 /* Footer */
@@ -312,9 +310,100 @@ footer {
     color: #21339c;
 }
 
-/* add media styles phones */
+/* Add media styles phones */
 @media only screen and (max-width: 600px) {
    
+    .nav-container {
+        justify-content: center;
+    }
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navigation li {
+        margin: 10px 0;
+    }
+    /* Adjust main content for mobile phones */
+
+    main {
+        padding-top: 80px;
+    }
+    .new-release, .past-releases {
+        margin: 20px 10px;
+        padding: 20px 10px;
+    }
+    .new-image, .past-image {
+        width: 100%;
+        height: auto;
+    }
+    /* Add more main content styles for mobile here */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .highlight-img {
+        width: 100%;
+        height: auto;
+    }
+    .past {
+        flex-direction: column;
+        align-items: center;
+    }
+    .past-releases {
+        width: 100%; /* Make each release occupy full width on mobile */
+        margin: 20px 0; /* Add spacing between releases */
+    }
+    .past-image {
+        width: 100%; /* Make images occupy full width on mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .past-releases h3,
+    .past-releases h4 {
+        text-align: center; /* Center-align text */
+    }
+    .casts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .djmix {
+        margin: 0px 10px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .cast-image {
+        width: 100%;
+        height: auto;
+    }
+    .new-catalogue {
+        flex-direction: column;
+        align-items: center;
+    }
+    #mmdiscos {
+        margin: 10px 10px;
+        padding: 20px 10px;
+    }
+    p {
+        max-width: 100%;
+        text-align: justify;
+    }
+    .podcasts {
+        align-items: center;
+    }
+    .podcast-djmix {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 10px;
+        padding: 20px 10px;
+    }
+    .podcast-image {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px; /* Add some spacing between podcasts */
+    }
+}
+
+
+    
    
-} 
 
