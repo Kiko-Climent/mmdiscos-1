@@ -5,13 +5,13 @@ MM Discos is an independent record label founded in 2015 and runned by Da Silva 
 ## Features
 The MM Discos website is divided into 4 pages:
 
-*HIGHLIGHTS: This section comprises the most recent material up to the current date.
+* HIGHLIGHTS: This section comprises the most recent material up to the current date.
 
-*MM DISCOS: In the second section, "MM DISCOS," you will find the complete catalog of releases throughout its history.
+* MM DISCOS: In the second section, "MM DISCOS," you will find the complete catalog of releases throughout its history.
 
-*MM CASTS: The third section, "MM CASTS," encompasses all the podcasts/DJ mixes.
+* MM CASTS: The third section, "MM CASTS," encompasses all the podcasts/DJ mixes.
 
-*CONTACT: Finally, the fourth section, "CONTACT," is an optional contact form for users to provide their feedback.
+* CONTACT: Finally, the fourth section, "CONTACT," is an optional contact form for users to provide their feedback.
 
 ### Existing Features
 __Navigation Bar__
@@ -45,8 +45,7 @@ __Footer__
 <!-- Screenshot of Footer -->
 
 ### Features Left to Implement
-...
-...
+- I'm interested in expanding our website by incorporating a couple of new pages. Firstly, I'd like to create a dedicated page showcasing our merchandise, including items like t-shirts, slipmats, and tote bags. Secondly, I'm considering a separate page to highlight our second label, co-owned by myself and my partner, Vitor
 
 ## Testing
 ...
@@ -65,12 +64,19 @@ __Footer__
 ...
 
 ## Credits
-...
-...
+MM Discos, co-owned by my partner Vitor Silva and me, holds all copyrights for songs and artwork images. The text content used on our website comprises descriptions found on our social media profiles.
 
-### Media
-...
-...
+In the process of creating our record label's website, I sought inspiration from various independent record labels. Notable influences include:
+
+- Permanent Vacation (https://perm-vac.com/): I was drawn to the concept of framing release images and the minimalist design.
+
+- Gudu Records (https://peggygou.com/gudu-records)
+
+- Claremont 56 (https://www.claremont56.com/)
+
+The idea to place the navigation bar within the header was suggested by my friend and fellow programmer, Javier Fernande Heras.
+
+As for the footer design, I found inspiration in the one we previously used for the "Love Running Project." Its functional and straightforward nature perfectly suited my vision for our record label's website
 
 ## Other General Projects Advise
 ...

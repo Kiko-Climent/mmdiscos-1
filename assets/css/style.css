@@ -34,20 +34,13 @@ header {
     height: 120px;
     /* add style to logo to blend it */
     mix-blend-mode: multiply;
-
 }
-
-
-
 #cover {
     mix-blend-mode: multiply;
-
 }
-
 main {
     padding-top: 144px;
 }
-
 /* General Styles */
 body {
     min-height: 100vh;
@@ -58,9 +51,7 @@ body {
     color: #3a3a3a;
     /* add font family to body */
     font-family: 'montserrat', sans-serif;
-
 }
-
 /* MM DISCOS navbar section */
 .navigation {
     list-style: none;
@@ -69,15 +60,12 @@ body {
     /* Add some padding to space out the items */
     padding: 1;
     text-align: center;
-
 }
-
 .navigation li {
     margin-right: 20px;
     /* Add some margin between the items */
     font-weight: bold;
 }
-
 /* delete marked items in nav bar */
 .navigation a {
     text-decoration: none;
@@ -137,7 +125,7 @@ main {
     flex: 1 0 auto;
 }
 
-/* add style to newcomers */
+/* Add style to Newcomers */
 .new {
     display: flex;
     flex-wrap: wrap;
@@ -151,21 +139,14 @@ main {
     text-align: center;
     width: 100%;
     max-width: 350px;
-    
-
 }
-
-.highlights .new-release {
-    
+.highlights .new-release {   
     max-width: 400px;
-
 }
 .new-image {
     width: 100%;
     height: auto;
-
 }
-
 /* Spotlight the images by adding a border */
 .highlight-img {
     border: solid 3px #facd48;
@@ -174,7 +155,6 @@ main {
     width: 400px;
     height: 400px;
 }
-
 /* add style to past releases */
 .past {
     display: flex;
@@ -184,14 +164,11 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .past-releases {
     padding: 20px 20px;
     text-align: center;
     width: 33.3%;
-
 }
-
 .past-image {
     width: 300px;
     height: 300px;
@@ -199,28 +176,22 @@ main {
     border-radius: 0;
     padding: 10px 10px;
 }
-
 /* styles to casts in main page */
 .casts {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     /* center */
-    /* space between if they are 3 items?*/
 
 }
-
 .djmix {
     margin: 20px 20px;
     padding: 20px 20px;
     text-align: center;
-
 }
-
 .djmix>p {
     text-align: center;
 }
-
 .cast-image {
     width: 300px;
     height: 300px;
@@ -228,35 +199,27 @@ main {
     border-radius: 0;
     padding: 10px 10px;
 }
-
 /* MM Discos Section */
 
 /* Style the body of seccion MM Discos */
-
-
 .new-catalogue {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-
 }
-
 #mmdiscos {
     margin: 10px 30px 10px 30px;
     padding: 30px 30px;
     text-align: center;
 }
-
 #mmdiscos ul {
     list-style: none;
 }
-
 p {
     
     text-align: justify;
 }
-
 /* seccion dj mixes */
 .podcasts {
     display: flex;
@@ -276,12 +239,10 @@ p {
     height: 300px;
     margin-right: 20px;
 }
-
 .text-content {
     flex-grow: 1;
     width: 100%;
 }
-
 .podcast-djmix p {
     max-width: none;
     width: 100%;
@@ -294,18 +255,15 @@ p {
     flex-wrap: wrap;
     margin-left: 10%;
 }
-
 .form>input {
     display: flex;
     align-items: center;
 }
-
 .new-logo {
     width: 600px;
     height: 600px;
     mix-blend-mode: multiply;
 }
-
 #contact {
     text-align: justify;
     border: 4px solid #0e121e;
@@ -319,14 +277,11 @@ p {
     width: 100%;
 
 }
-
-
 #coments {
     display: flex;
     align-items: flex-start;
 }
-
-/* style purchase button */
+/* Style purchase button */
 button {
     background-color: #facd48;
     border-radius: 8px;
