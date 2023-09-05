@@ -22,11 +22,6 @@ header {
     z-index: 99;
     /* styling mobile */
 }
-
-header h1 {
-    font-size: 150;
-}
-
 #slogan {
     font-weight: bold;
     color: #21339c;
@@ -121,11 +116,14 @@ body {
 .nav-container#nav-mobile ul li a {
     padding: 12px;
     text-decoration: none; 
-    display: block;  
+    display: block;
+    background-color:#f6bfc0;
+    color: #21339c;
+    font-weight: bold; 
 }
 .nav-container#nav-mobile ul li a:hover {
-    background-color: #0e121e;
-    color: white;   
+    background-color:#facd48;
+    color: #21339c;   
 }
 
 .nav-container#nav-mobile:hover ul{
@@ -335,7 +333,7 @@ button {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 13px;
     padding: 4px 4px; 
-    font-weight: solid;
+    color: #21339c;
 }
 button:hover {
     background-color: #f6bfc0;
@@ -344,11 +342,14 @@ button:hover {
 /* Style link-button for bandcamp and soundcloud */
 a.btn-default {
     background-color: #facd48;
+    color: #21339c;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 13px;
+    font-weight: bold;
     padding: 4px 4px;
     text-decoration: none;
+    
 }
 .btn-default:hover {
     background-color: #f6bfc0;
@@ -405,7 +406,9 @@ footer {
         padding: 10px; /* Increase padding for better spacing */
         border-radius: 20px;
         color: #0e121e;
+        font-weight: bold;
         margin-left: 20px; /* Add spacing between image and contact */
+        margin-bottom: 20px;
     }
 
     #coments {
@@ -628,6 +631,7 @@ footer {
         /* Add rounded corners */
         margin-top: 10px;
         /* Add spacing at the top */
+        margin-right: 20px;
         color: #0e121e;
     }
 
