@@ -335,9 +335,6 @@ p {
 }
 
 
-
-
-
 #coments {
     display: flex;
     align-items: flex-start;
@@ -502,6 +499,7 @@ footer {
 
     .new-release,
     .past-releases {
+        /* Add some margin for a better navigation on small screens */
         margin: 20px 10px;
         padding: 20px 10px;
     }
@@ -510,6 +508,8 @@ footer {
     .past-image {
         width: 100%;
         height: auto;
+        /* Add some margin for a better navigation on small screens */
+        margin-top: 50px;
     }
 
     /* Add more main content styles for mobile here */
@@ -593,8 +593,7 @@ footer {
     .podcast-image {
         width: 100%;
         height: auto;
-        margin-right: 0;
-        margin-bottom: 10px;
+        margin: 40px 0px 10px;
         /* Add some spacing between podcasts */
     }
 
@@ -613,6 +612,7 @@ footer {
         /* Make the image occupy full width */
         height: auto;
         /* Maintain aspect ratio */
+        margin-top: 50px;
     }
 
     #contact {
