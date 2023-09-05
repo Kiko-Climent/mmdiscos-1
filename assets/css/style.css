@@ -72,8 +72,6 @@ body {
     display: flex;
     /* Use flexbox to create a horizontal layout */
     /* Add some padding to space out the items */
-
-
     padding: 1;
     text-align: center;
 
@@ -83,8 +81,6 @@ body {
     margin-right: 20px;
     /* Add some margin between the items */
     font-weight: bold;
-
-
 }
 
 /* delete marked items in nav bar */
@@ -98,7 +94,6 @@ body {
 /* add personalized underline */
 .navigation a:hover {
     border-bottom: 2px solid #21339c;
-
 }
 
 .nav-container#nav-desktop {
@@ -110,9 +105,7 @@ body {
 }
 .nav-container#nav-mobile {
     display: none;
-    position: relative;
-
-    
+    position: relative;    
 }
 .nav-container#nav-mobile ul {
     display: none;
@@ -132,16 +125,11 @@ body {
 }
 .nav-container#nav-mobile ul li a:hover {
     background-color: #0e121e;
-    color: white;
-    
+    color: white;   
 }
 
 .nav-container#nav-mobile:hover ul{
-    display: block;
-
-
-    
-    
+    display: block;   
 }
 
 /* Main */
@@ -346,16 +334,28 @@ button {
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 13px;
-    padding: 4px 4px;
-
+    padding: 4px 4px; 
+    font-weight: solid;
 }
-
 button:hover {
+    background-color: #f6bfc0;
+    padding: 10px 20px;
+}
+/* Style link-button for bandcamp and soundcloud */
+a.btn-default {
+    background-color: #facd48;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+.btn-default:hover {
     background-color: #f6bfc0;
     padding: 10px 20px;
 
 }
-
+/* Style submit button in form */
 #submit {
     font-size: 15px;
     background-color: #facd48;
