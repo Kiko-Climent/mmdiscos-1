@@ -66,7 +66,7 @@ The Footer section includes the most relevant links to _**MM Discos' social medi
 ![Footer](/media/mmdiscos_footer.png)
 
 ### Features Left to Implement
-- I'm interested in expanding our website by incorporating a couple of new pages. Firstly, I'd like to create a dedicated page showcasing our merchandise, including items like t-shirts, slipmats, and tote bags. Secondly, I'm considering a separate page to highlight our second label, co-owned by myself and my partner, Vitor.
+I'm interested in expanding our website by incorporating a couple of new pages. Firstly, I'd like to create a dedicated page showcasing our merchandise, including items like t-shirts, slipmats, and tote bags. Secondly, I'm considering a separate page to highlight our second label, co-owned by myself and my partner, Vitor.
 
 ## Testing
 ...
@@ -77,7 +77,7 @@ The Footer section includes the most relevant links to _**MM Discos' social medi
 I found an error cause ther was some buttons nested inside < a > elements. I fixed the problems by creating new buttons wit Bootstrap.
 Passing again through the validator and no more errors were found [W3C Validator] ()
 
--CSS:
+- CSS:
 No errors were found after passing through the official [Jigsaw Validator]()
 
 ### Unfixed Bugs
