@@ -72,10 +72,13 @@ I'm interested in expanding our website by incorporating two new pages. Firstly,
 ### Validator Testing
 - HTML:
 I found an error because there was some buttons nested inside < a > elements. I fixed the problems by creating new buttons with Bootstrap.
-Passing again through the validator and no more errors were found [W3C Validator] ()
+Passing again through the validator and no more errors were found [W3C Validator](/media/html_check.png)
 
 - CSS:
-No errors were found after passing through the official [Jigsaw Validator]()
+No errors were found after passing through the official [Jigsaw Validator](http://jigsaw.w3.org/css-validator/validator?lang=es&profile=css3svg&uri=https%3A%2F%2Fkiko-climent.github.io%2Fmmdiscos-1%2F&usermedium=all&vextwarning=&warning=1)
+
+- LIGHTHOUSE
+Check also accesibility on [Lighhouse](/media/lighhouse_check.png)
 
 
 ## Deployment
