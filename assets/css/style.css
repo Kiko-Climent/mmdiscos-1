@@ -72,8 +72,13 @@ body {
 }
 /* add personalized underline */
 .navigation a:hover {
-    border-bottom: 2px solid #21339c;
+    border-bottom: 4px solid #a49ef7;
 }
+/* create a hover effect to knowtha page we are navegating */
+.navigation .current {
+    border-bottom: 3px solid #21339c;
+    font-weight: bold;
+  }
 
 .nav-container#nav-desktop {
     display: flex;

@@ -54,9 +54,9 @@ As mentioned earlier, MM Discos also aims to share the skills and techniques of 
 ![MM Casts](/media/mmdiscos_mmcasts.png)
 
 __Contact Page__
-Because feedback is always constructive for growth and evolution, and it fosters engagement with the audience, MM Discos wants to hear what users have to say. On this page, users will find a _**simple form**_ with fields for Name, Surname, Email, Age, and a Textarea where they can leave a message.
+Because feedback is always constructive for growth and evolution, and it fosters engagement with the audience, MM Discos wants to hear what users have to say. On this page, users will find a _**simple form**_ with fields for _Name_, _Surname_, _Email_, _Age_, and a _Textarea_ where they can leave a message.
 
-Additionally, the page displays an alternative logo that has been recently designed and fits perfectly with the content.
+Additionally, the page displays an alternative logo that has been recently designed.
 <!-- Screenshot of Contact page -->
 ![Contact](/media/mmdiscos_contact.png)
 
@@ -80,16 +80,17 @@ Passing again through the validator and no more errors were found [W3C Validator
 -CSS:
 No errors were found after passing through the official [Jigsaw Validator]()
 
-
-...
-
 ### Unfixed Bugs
 ...
 ...
 
 ## Deployment
-...
-...
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here
 
 ## Credits
 MM Discos, co-owned by my partner Vitor Silva and me, holds all copyrights for songs and artwork images. The text content used on our website comprises descriptions found on our social media profiles.
@@ -104,11 +105,16 @@ In the process of creating our record label's website, I sought inspiration from
 
 The idea to place the navigation bar within the header was suggested by my friend and fellow programmer, Javier Fernande Heras.
 
-As for the footer design, I found inspiration in the one we previously used for the _**Love Running Project.**_ Its functional and straightforward nature perfectly suited my vision for our record label's website
+As for the footer design, I found inspiration in the one we previously used for the _**Love Running Project.**_ Its functional and straightforward nature perfectly suited my vision for our record label's website.
 
-In order to do the Readme.md i checked and followed some of the instructions that was give in "The Love Running Project" and also "Found in Translation" from Kera Kudmore.
+To create the Readme.md file, I consulted and adhered to the guidelines provided by _*The Love Running Project*_ and also drew inspiration from _*Found in Translation*_ by Kera Kudmore.
+
+The icons featured in the footer section were sourced from [Font Awesome](https://fontawesome.com/)
+
+The Favicon used was generated with the help of [Favicon] (https://favicon.io/)
+
+The mobile-friendly _Hamburger menu_ implemented in the navigation bar for smaller devices was crafted using[Get Bootstrap](https://getbootstrap.com/)
 
 ## Other General Projects Advise
-...
-...
+
 
