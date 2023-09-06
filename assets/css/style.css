@@ -7,8 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-/* add style to Header */
+/* Add style to Header */
 header {
     background-color: #f6bfc0;
     display: flex;
@@ -25,10 +24,8 @@ header {
 #slogan {
     font-weight: bold;
     color: #21339c;
-
 }
-
-/* style image logo */
+/* Style image logo */
 #logo img {
     width: 120px;
     height: 120px;
@@ -73,12 +70,10 @@ body {
     transition: text-decoration 0.2s ease-in-out;
     border-bottom: 1px solid transparent;
 }
-
 /* add personalized underline */
 .navigation a:hover {
     border-bottom: 2px solid #21339c;
 }
-
 .nav-container#nav-desktop {
     display: flex;
     justify-content: center;
@@ -100,7 +95,6 @@ body {
     right: 0;
     background-color: white;
 }
-
 .nav-container#nav-mobile ul li a {
     padding: 12px;
     text-decoration: none; 
@@ -113,7 +107,6 @@ body {
     background-color:#facd48;
     color: #21339c;   
 }
-
 .nav-container#nav-mobile:hover ul{
     display: block;   
 }
@@ -251,6 +244,7 @@ p {
     align-items: center;
     flex-wrap: wrap;
     margin-left: 10%;
+
 }
 .form>input {
     display: flex;
