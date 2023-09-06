@@ -111,6 +111,3 @@ The icons featured in the footer section and the mobile-friendly _Hamburger menu
 The Favicon used was generated with the help of [Favicon](https://favicon.io/)
 
 "I used [Bootstrap](https://getbootstrap.com/) to create the buttons labeled 'Listen on SoundCloud' and 'Buy on Bandcamp' on my website. Additionally, I found [Kiko Palomares](https://www.youtube.com/@kikopalomares) tutorials on YouTube to be extremely valuable while I was developing my site."
-
-
-
