@@ -1,6 +1,6 @@
 # MM DISCOS
 MM Discos is an independent record label founded in 2015 and runned by Da Silva and Dj Katah. Based currently between Berlin and Barcelona, the primary goal of the label appears to be supporting and promoting emerging artists, helping them gain exposure and recognition in the music industry. MM Discos achieves this by releasing original productions from these artists and by hosting podcast DJ sets, which can help showcase their talents and connect them with a wider audience.
-<!-- responsive mockup -->
+
 ![ Responsive Mockup](/media/mmdiscos_mockup.png)
 
 ## Features

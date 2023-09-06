@@ -175,7 +175,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     /* center */
-
 }
 .djmix {
     margin: 20px 20px;
@@ -201,12 +200,12 @@ main {
     flex-direction: row;
     justify-content: center;
 }
-#mmdiscos {
+.mmdiscos {
     margin: 10px 30px 10px 30px;
     padding: 30px 30px;
     text-align: center;
 }
-#mmdiscos ul {
+.mmdiscos ul {
     list-style: none;
 }
 p {
@@ -511,7 +510,7 @@ footer {
         align-items: center;
     }
 
-    #mmdiscos {
+    .mmdiscos {
         margin: 10px 10px;
         padding: 20px 10px;
     }
