@@ -47,7 +47,7 @@ body {
     /* color: #21339c */
     color: #3a3a3a;
     /* add font family to body */
-    font-family: 'montserrat', sans-serif;
+    font-family: 'montserrat',sans-serif;
 }
 /* MM DISCOS navbar section */
 .navigation {
@@ -74,6 +74,7 @@ body {
 .navigation a:hover {
     border-bottom: 2px solid #21339c;
 }
+
 .nav-container#nav-desktop {
     display: flex;
     justify-content: center;
@@ -111,13 +112,13 @@ body {
     display: block;   
 }
 
+
 /* Main */
 main {
     background-color: #a49ef7;
     /* Make main element to push foother down */
     flex: 1 0 auto;
 }
-
 /* Add style to Newcomers */
 .new {
     display: flex;
@@ -305,6 +306,7 @@ a.btn-default {
     background-color: #facd48;
     padding: 4px 4px;
 }
+
 /* Footer */
 footer {
     background-color: #facd48;
