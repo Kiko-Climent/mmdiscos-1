@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Add style to Header */
 header {
     background-color: #f6bfc0;
@@ -21,10 +22,12 @@ header {
     z-index: 99;
     /* styling mobile */
 }
+
 #slogan {
     font-weight: bold;
     color: #21339c;
 }
+
 /* Style image logo */
 #logo img {
     width: 120px;
@@ -32,12 +35,15 @@ header {
     /* add style to logo to blend it */
     mix-blend-mode: multiply;
 }
+
 #cover {
     mix-blend-mode: multiply;
 }
+
 main {
     padding-top: 144px;
 }
+
 /* General Styles */
 body {
     min-height: 100vh;
@@ -47,8 +53,9 @@ body {
     /* color: #21339c */
     color: #3a3a3a;
     /* add font family to body */
-    font-family: 'montserrat',sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
+
 /* MM DISCOS navbar section */
 .navigation {
     list-style: none;
@@ -58,11 +65,13 @@ body {
     padding: 1px;
     text-align: center;
 }
+
 .navigation li {
     margin-right: 20px;
     /* Add some margin between the items */
     font-weight: bold;
 }
+
 /* delete marked items in nav bar */
 .navigation a {
     text-decoration: none;
@@ -70,15 +79,17 @@ body {
     transition: text-decoration 0.2s ease-in-out;
     border-bottom: 1px solid transparent;
 }
+
 /* add personalized underline */
 .navigation a:hover {
     border-bottom: 4px solid #a49ef7;
 }
+
 /* create a hover effect to knowtha page we are navegating */
 .navigation .current {
     border-bottom: 3px solid #21339c;
     font-weight: bold;
-  }
+}
 
 .nav-container#nav-desktop {
     display: flex;
@@ -87,10 +98,12 @@ body {
     padding: 10px;
     background-color: #f6bfc0;
 }
+
 .nav-container#nav-mobile {
     display: none;
-    position: relative;    
+    position: relative;
 }
+
 .nav-container#nav-mobile ul {
     display: none;
     list-style: none;
@@ -101,20 +114,23 @@ body {
     right: 0;
     background-color: white;
 }
+
 .nav-container#nav-mobile ul li a {
     padding: 12px;
-    text-decoration: none; 
+    text-decoration: none;
     display: block;
-    background-color:#f6bfc0;
+    background-color: #f6bfc0;
     color: #21339c;
-    font-weight: bold; 
+    font-weight: bold;
 }
+
 .nav-container#nav-mobile ul li a:hover {
-    background-color:#facd48;
-    color: #21339c;   
+    background-color: #facd48;
+    color: #21339c;
 }
-.nav-container#nav-mobile:hover ul{
-    display: block;   
+
+.nav-container#nav-mobile:hover ul {
+    display: block;
 }
 
 
@@ -124,6 +140,7 @@ main {
     /* Make main element to push foother down */
     flex: 1 0 auto;
 }
+
 /* Add style to Newcomers */
 .new {
     display: flex;
@@ -139,13 +156,16 @@ main {
     width: 100%;
     max-width: 350px;
 }
-.highlights .new-release {   
+
+.highlights .new-release {
     max-width: 400px;
 }
+
 .new-image {
     width: 100%;
     height: auto;
 }
+
 /* Spotlight the images by adding a border */
 .highlight-img {
     border: solid 3px #facd48;
@@ -154,6 +174,7 @@ main {
     width: 400px;
     height: 400px;
 }
+
 /* add style to past releases */
 .past {
     display: flex;
@@ -163,11 +184,13 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .past-releases {
     padding: 20px 20px;
     text-align: center;
     width: 33.3%;
 }
+
 .past-image {
     width: 300px;
     height: 300px;
@@ -175,6 +198,7 @@ main {
     border-radius: 0;
     padding: 10px 10px;
 }
+
 /* styles to casts in main page */
 .casts {
     display: flex;
@@ -182,14 +206,17 @@ main {
     justify-content: space-around;
     /* center */
 }
+
 .djmix {
     margin: 20px 20px;
     padding: 20px 20px;
     text-align: center;
 }
+
 .djmix>p {
     text-align: center;
 }
+
 .cast-image {
     width: 300px;
     height: 300px;
@@ -197,6 +224,7 @@ main {
     border-radius: 0;
     padding: 10px 10px;
 }
+
 /* MM Discos Section */
 
 /* Style the body of seccion MM Discos */
@@ -206,43 +234,52 @@ main {
     flex-direction: row;
     justify-content: center;
 }
+
 .mmdiscos {
     margin: 10px 30px 10px 30px;
     padding: 30px 30px;
     text-align: center;
 }
+
 .mmdiscos ul {
     list-style: none;
 }
+
 p {
-       text-align: justify;
+    text-align: justify;
 }
+
 /* seccion dj mixes */
 .podcasts {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .podcast-djmix {
     display: flex;
     align-items: center;
     margin: 20px 20px;
     padding: 20px 20px;
 }
+
 .podcast-image {
     width: 300px;
     height: 300px;
     margin-right: 20px;
 }
+
 .text-content {
     flex-grow: 1;
     width: 100%;
 }
+
 .podcast-djmix p {
     max-width: none;
     width: 100%;
     text-align: justify;
 }
+
 /* Form */
 .get-in-touch {
     display: flex;
@@ -251,15 +288,18 @@ p {
     margin-left: 10%;
 
 }
+
 .form>input {
     display: flex;
     align-items: center;
 }
+
 .new-logo {
     width: 600px;
     height: 600px;
     mix-blend-mode: multiply;
 }
+
 #contact {
     text-align: justify;
     border: 4px solid #0e121e;
@@ -267,28 +307,33 @@ p {
     border-radius: 20px;
     color: #0e121e;
 }
+
 #contact input,
 #contact select,
 #contact textarea {
     width: 100%;
 }
+
 #coments {
     display: flex;
     align-items: flex-start;
 }
+
 /* Style purchase button */
 button {
     background-color: #facd48;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-size: 13px;
-    padding: 4px 4px; 
+    padding: 4px 4px;
     color: #21339c;
 }
+
 button:hover {
     background-color: #f6bfc0;
     padding: 10px 20px;
 }
+
 /* Style link-button for bandcamp and soundcloud */
 a.btn-default {
     background-color: #facd48;
@@ -298,13 +343,15 @@ a.btn-default {
     font-size: 13px;
     font-weight: bold;
     padding: 4px 4px;
-    text-decoration: none;   
+    text-decoration: none;
 }
+
 .btn-default:hover {
     background-color: #f6bfc0;
     padding: 10px 20px;
 
 }
+
 /* Style submit button in form */
 #submit {
     font-size: 15px;
@@ -317,6 +364,7 @@ footer {
     background-color: #facd48;
 
 }
+
 #social-networks {
     text-align: center;
     padding: 10px 0;
@@ -324,68 +372,89 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 120%;
     padding: 0 5%;
     color: #21339c;
 }
+
+/* Estilo del botón Volver Arriba */
+
+
 /* Add media styles phones */
 
 /* Styles for medium devices (e.g., iPads) */
 @media only screen and (max-width: 1350px) {
     .get-in-touch {
-        flex-direction: column; /* Revert to horizontal layout */
-        justify-content: center; /* Center-align elements */
-        margin-left: initial; /* Restore left margin */
+        flex-direction: column;
+        /* Revert to horizontal layout */
+        justify-content: center;
+        /* Center-align elements */
+        margin-left: initial;
+        /* Restore left margin */
     }
 
     .new-logo {
-        width: 300px; /* Adjust image width for tablets */
-        height: auto; /* Maintain aspect ratio */
+        width: 300px;
+        /* Adjust image width for tablets */
+        height: auto;
+        /* Maintain aspect ratio */
     }
 
     #contact {
-        max-width: 400px; /* Limit the contact container width */
-        text-align: justify; /* Justify text for better readability */
+        max-width: 400px;
+        /* Limit the contact container width */
+        text-align: justify;
+        /* Justify text for better readability */
         border: 4px solid #0e121e;
-        padding: 10px; /* Increase padding for better spacing */
+        padding: 10px;
+        /* Increase padding for better spacing */
         border-radius: 20px;
         color: #0e121e;
         font-weight: bold;
-        margin-left: 20px; /* Add spacing between image and contact */
+        margin-left: 20px;
+        /* Add spacing between image and contact */
         margin-bottom: 20px;
     }
 
     #coments {
-        width: 400px; /* Limit the comments section width */
-        margin-top: 20px; /* Add spacing at the top */
+        width: 400px;
+        /* Limit the comments section width */
+        margin-top: 20px;
+        /* Add spacing at the top */
     }
 
     /* Style the form inputs and submit button */
     .form {
-        margin-top: 20px; /* Add spacing at the top */
+        margin-top: 20px;
+        /* Add spacing at the top */
     }
 
-    .form > label,
-    .form > input,
-    .form > select,
-    .form > textarea {
-        width: 100%; /* Make form elements occupy full width */
-        margin-bottom: 10px; /* Add spacing between form elements */
+    .form>label,
+    .form>input,
+    .form>select,
+    .form>textarea {
+        width: 100%;
+        /* Make form elements occupy full width */
+        margin-bottom: 10px;
+        /* Add spacing between form elements */
     }
 
     /* Add this style to fix textarea overflow */
-    .form > textarea {
+    .form>textarea {
         width: 100%;
         margin-bottom: 10px;
-        box-sizing: border-box; /* Ensure textarea respects the border box */
+        box-sizing: border-box;
+        /* Ensure textarea respects the border box */
     }
 
     /* Style the purchase button */
     #submit {
         font-size: 15px;
         background-color: #facd48;
-        padding: 10px 20px; /* Increase padding for better touch interaction */
+        padding: 10px 20px;
+        /* Increase padding for better touch interaction */
         border-radius: 8px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     }
@@ -394,22 +463,26 @@ footer {
         background-color: #f6bfc0;
     }
 }
+
 /* Styles for screens between 600px and 992px (medium-sized screens) */
 @media only screen and (max-width: 992px) {
 
     .nav-container#nav-desktop {
         display: none;
-        
+
     }
+
     .nav-container#nav-mobile {
         display: block;
-        
+
     }
-    
+
     /* Add this style to adjust the spacing between the images */
     .past-releases {
-        width: 100%; /* Adjust the width to fit two items in a row */
-        margin: 10px; /* Add margin for spacing between items */
+        width: 100%;
+        /* Adjust the width to fit two items in a row */
+        margin: 10px;
+        /* Add margin for spacing between items */
     }
 
     /* Add this style to center the items */
@@ -418,18 +491,7 @@ footer {
     }
 }
 
-
-/* Styles for screens 768 ?? */
-@media only screen and (max-width: 768px) {
-    
-
-   
-
-}
-
 @media only screen and (max-width: 600px) {
-
-
     .navigation {
         flex-direction: column;
         text-align: center;
@@ -440,7 +502,6 @@ footer {
     }
 
     /* Adjust main content for mobile phones */
-
     main {
         padding-top: 80px;
     }
@@ -619,4 +680,3 @@ footer {
         background-color: #f6bfc0;
     }
 }
-
