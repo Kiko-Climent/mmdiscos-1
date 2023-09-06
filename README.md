@@ -2,6 +2,8 @@
 
 MM Discos is an independent record label founded in 2015 and runned by Da Silva and Dj Katah. Based currently between Berlin and Barcelona, the primary goal of the label appears to be supporting and promoting emerging artists, helping them gain exposure and recognition in the music industry. MM Discos achieves this by releasing original productions from these artists and by hosting podcast DJ sets, which can help showcase their talents and connect them with a wider audience.
 
+Regarding the *MM Discos* website, my intention and goal are to open a gateway to a space where music will be the main character of the story. A place not only for DJs and producers but for anyone who loves music in the same way we do.
+
 ![ Responsive Mockup](/media/mmdiscos_mockup.png)
 
 ## DESIGN
@@ -71,7 +73,6 @@ I'm interested in expanding our website by incorporating two new pages. Firstly,
 
 ### Validator Testing
 - HTML:
-I found an error because there was some buttons nested inside < a > elements. I fixed the problems by creating new buttons with Bootstrap.
 Passing again through the validator and no more errors were found [W3C Validator](/media/html_check.png)
 
 - CSS:
@@ -80,6 +81,10 @@ No errors were found after passing through the official [Jigsaw Validator](http:
 - LIGHTHOUSE
 Check also accesibility on [Lighhouse](/media/lighhouse_check.png)
 
+### Bugs
+I encountered an issue when I discovered buttons nested within < a > elements. To resolve this, I addressed the problem by generating new buttons using Bootstrap.
+
+Additionally, I noticed that certain < h4 > elements were enclosed within < li > tags, but I simply moved them outside of the list.
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
