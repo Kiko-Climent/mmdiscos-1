@@ -87,7 +87,7 @@ Check also accesibility on [Lighhouse](/media/lighhouse_check.png)
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here
+The live link can be found here (https://kiko-climent.github.io/mmdiscos-1/)
 
 ## Credits
 MM Discos, co-owned by my partner Vitor Silva and me, holds all copyrights for songs and artwork images. The text content used on our website comprises descriptions found on our social media profiles.
