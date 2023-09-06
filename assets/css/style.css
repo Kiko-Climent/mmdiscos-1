@@ -59,20 +59,20 @@ body {
 /* MM DISCOS navbar section */
 .navigation {
     list-style: none;
+    /* Add flexbox to create a horizontal layout */
     display: flex;
-    /* Use flexbox to create a horizontal layout */
     /* Add some padding to space out the items */
     padding: 1px;
     text-align: center;
 }
 
 .navigation li {
-    margin-right: 20px;
     /* Add some margin between the items */
+    margin-right: 20px;
     font-weight: bold;
 }
 
-/* delete marked items in nav bar */
+/* Delete marked items in nav bar */
 .navigation a {
     text-decoration: none;
     color: #21339c;
@@ -80,12 +80,12 @@ body {
     border-bottom: 1px solid transparent;
 }
 
-/* add personalized underline */
+/* Add personalized underline */
 .navigation a:hover {
     border-bottom: 4px solid #a49ef7;
 }
 
-/* create a hover effect to knowtha page we are navegating */
+/* Create a hover effect to mark the page we are navegating */
 .navigation .current {
     border-bottom: 3px solid #21339c;
     font-weight: bold;
@@ -99,6 +99,7 @@ body {
     background-color: #f6bfc0;
 }
 
+/* Syle navbar for smaller creens */
 .nav-container#nav-mobile {
     display: none;
     position: relative;
@@ -171,8 +172,9 @@ main {
     border: solid 3px #facd48;
     border-radius: 0;
     padding: 10px 10px;
-    width: 400px;
     height: 400px;
+    width: 400px;
+
 }
 
 /* add style to past releases */
@@ -199,7 +201,7 @@ main {
     padding: 10px 10px;
 }
 
-/* styles to casts in main page */
+/* Styles to podcasts main page */
 .casts {
     display: flex;
     flex-wrap: wrap;
@@ -227,7 +229,7 @@ main {
 
 /* MM Discos Section */
 
-/* Style the body of seccion MM Discos */
+/* Style the body of section MM Discos */
 .new-catalogue {
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +251,7 @@ p {
     text-align: justify;
 }
 
-/* seccion dj mixes */
+/* Section dj mixes */
 .podcasts {
     display: flex;
     flex-direction: column;
@@ -308,6 +310,7 @@ p {
     color: #0e121e;
 }
 
+/* Make all form elements have a 100% width */
 #contact input,
 #contact select,
 #contact textarea {
@@ -379,12 +382,9 @@ footer {
     color: #21339c;
 }
 
-/* Estilo del botón Volver Arriba */
+/* Add media styles for other screens */
 
-
-/* Add media styles phones */
-
-/* Styles for medium devices (e.g., iPads) */
+/* Styles for medium devices (iPads) */
 @media only screen and (max-width: 1350px) {
     .get-in-touch {
         flex-direction: column;
@@ -420,41 +420,39 @@ footer {
 
     #coments {
         width: 400px;
-        /* Limit the comments section width */
         margin-top: 20px;
-        /* Add spacing at the top */
     }
 
-    /* Style the form inputs and submit button */
     .form {
         margin-top: 20px;
-        /* Add spacing at the top */
+
     }
 
     .form>label,
     .form>input,
     .form>select,
     .form>textarea {
-        width: 100%;
         /* Make form elements occupy full width */
-        margin-bottom: 10px;
+        width: 100%;
         /* Add spacing between form elements */
+        margin-bottom: 10px;
     }
 
     /* Add this style to fix textarea overflow */
     .form>textarea {
         width: 100%;
         margin-bottom: 10px;
+        /* Make sure textarea respects the border box */
         box-sizing: border-box;
-        /* Ensure textarea respects the border box */
+
     }
 
     /* Style the purchase button */
     #submit {
         font-size: 15px;
         background-color: #facd48;
+        /* Add more padding for better interaction */
         padding: 10px 20px;
-        /* Increase padding for better touch interaction */
         border-radius: 8px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     }
@@ -464,7 +462,7 @@ footer {
     }
 }
 
-/* Styles for screens between 600px and 992px (medium-sized screens) */
+/* Add Style for screens between 600px and 992px  */
 @media only screen and (max-width: 992px) {
 
     .nav-container#nav-desktop {
@@ -477,20 +475,19 @@ footer {
 
     }
 
-    /* Add this style to adjust the spacing between the images */
+    /* Add style to adjust the space between images */
     .past-releases {
         width: 100%;
-        /* Adjust the width to fit two items in a row */
         margin: 10px;
-        /* Add margin for spacing between items */
     }
 
-    /* Add this style to center the items */
+    /* Add style to center the items */
     .past {
         justify-content: center;
     }
 }
 
+/* Styles for mobile phones */
 @media only screen and (max-width: 600px) {
     .navigation {
         flex-direction: column;
@@ -521,7 +518,7 @@ footer {
         margin-top: 50px;
     }
 
-    /* Add more main content styles for mobile here */
+    /* Add more main content styles for mobile */
     img {
         max-width: 100%;
         height: auto;
@@ -538,23 +535,20 @@ footer {
     }
 
     .past-releases {
-        width: 100%;
         /* Make each release occupy full width on mobile */
+        width: 100%;
         margin: 20px 0;
-        /* Add spacing between releases */
     }
 
     .past-image {
+        /* Make images occupy full width on mobile and same ratio */
         width: 100%;
-        /* Make images occupy full width on mobile */
         height: auto;
-        /* Maintain aspect ratio */
     }
 
     .past-releases h3,
     .past-releases h4 {
         text-align: center;
-        /* Center-align text */
     }
 
     .casts {
@@ -603,24 +597,21 @@ footer {
         width: 100%;
         height: auto;
         margin: 40px 0px 10px;
-        /* Add some spacing between podcasts */
     }
 
-    /* style contact form for mobiles */
+    /* Style contact form for mobiles */
+
     .get-in-touch {
+        /* Align elements vertically and to the left */
         flex-direction: column;
-        /* Stack elements vertically */
         align-items: flex-start;
-        /* Align elements to the left */
         margin-left: 0;
-        /* Remove left margin */
     }
 
     .new-logo {
+        /* make img occupy full width and mantein ratio */
         width: 100%;
-        /* Make the image occupy full width */
         height: auto;
-        /* Maintain aspect ratio */
         margin-top: 50px;
     }
 
@@ -658,20 +649,18 @@ footer {
     .form>input,
     .form>select,
     .form>textarea {
+        /* Make form elements occupy full width and space them */
         width: 100%;
-        /* Make form elements occupy full width */
         margin-bottom: 10px;
-        /* Add spacing between form elements */
     }
 
     /* Style the purchase button */
     #submit {
         width: auto;
-        /* Auto width for the submit button */
         font-size: 15px;
         background-color: #facd48;
+        /* Increase padding for better interaction */
         padding: 10px 20px;
-        /* Increase padding for better touch interaction */
         border-radius: 8px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     }

@@ -1,6 +1,5 @@
-![Logo](/assets/images/logo_azul_800x800.jpg)
+# MM DISCOS 
 
-# MM DISCOS
 MM Discos is an independent record label founded in 2015 and runned by Da Silva and Dj Katah. Based currently between Berlin and Barcelona, the primary goal of the label appears to be supporting and promoting emerging artists, helping them gain exposure and recognition in the music industry. MM Discos achieves this by releasing original productions from these artists and by hosting podcast DJ sets, which can help showcase their talents and connect them with a wider audience.
 
 ![ Responsive Mockup](/media/mmdiscos_mockup.png)
@@ -30,7 +29,7 @@ The MM Discos website is divided into 4 pages:
 
 ### Existing Features
 __Navigation Bar__
-The user will find it in all four pages of the site, this is fully responsive on all kind of divices, featuring a **_burger menu_** for easy navegation on smaller screens.
+The user will find it in all four pages of the site, this is fully responsive on all kind of divices, featuring a **_burger menu_** for easy navigation on smaller screens.
 
 Includes links to other page sections: _Highlights, MM Discos, MM Casts and Contact._ Additionally, the label's logo also serves as a link that will take the user to the Highlights section.
 
@@ -66,23 +65,18 @@ The Footer section includes the most relevant links to _**MM Discos' social medi
 ![Footer](/media/mmdiscos_footer.png)
 
 ### Features Left to Implement
-I'm interested in expanding our website by incorporating a couple of new pages. Firstly, I'd like to create a dedicated page showcasing our merchandise, including items like t-shirts, slipmats, and tote bags. Secondly, I'm considering a separate page to highlight our second label, co-owned by myself and my partner, Vitor.
+I'm interested in expanding our website by incorporating two new pages. Firstly, I'd like to create a dedicated page showcasing our merchandise, including items like t-shirts, slipmats, and tote bags. Secondly, I'm considering a separate page to highlight our second label, co-owned by myself and my partner, Vitor.
 
 ## Testing
-...
-...
 
 ### Validator Testing
 - HTML:
-I found an error cause ther was some buttons nested inside < a > elements. I fixed the problems by creating new buttons wit Bootstrap.
+I found an error because there was some buttons nested inside < a > elements. I fixed the problems by creating new buttons with Bootstrap.
 Passing again through the validator and no more errors were found [W3C Validator] ()
 
 - CSS:
 No errors were found after passing through the official [Jigsaw Validator]()
 
-### Unfixed Bugs
-...
-...
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -109,12 +103,11 @@ As for the footer design, I found inspiration in the one we previously used for 
 
 To create the Readme.md file, I consulted and adhered to the guidelines provided by _*The Love Running Project*_ and also drew inspiration from _*Found in Translation*_ by Kera Kudmore.
 
-The icons featured in the footer section were sourced from [Font Awesome](https://fontawesome.com/)
+The icons featured in the footer section and the mobile-friendly _Hamburger menu_ implemented in the navigation bar for smaller devices were crafted by [Font Awesome](https://fontawesome.com/)
 
-The Favicon used was generated with the help of [Favicon] (https://favicon.io/)
+The Favicon used was generated with the help of [Favicon](https://favicon.io/)
 
-The mobile-friendly _Hamburger menu_ implemented in the navigation bar for smaller devices was crafted using[Get Bootstrap](https://getbootstrap.com/)
+"I used [Bootstrap](https://getbootstrap.com/) to create the buttons labeled 'Listen on SoundCloud' and 'Buy on Bandcamp' on my website. Additionally, I found [Kiko Palomares](https://www.youtube.com/@kikopalomares) tutorials on YouTube to be extremely valuable while I was developing my site."
 
-## Other General Projects Advise
 
 
