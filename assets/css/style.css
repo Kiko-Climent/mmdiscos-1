@@ -58,7 +58,7 @@ body {
     display: flex;
     /* Use flexbox to create a horizontal layout */
     /* Add some padding to space out the items */
-    padding: 1;
+    padding: 1px;
     text-align: center;
 }
 .navigation li {
@@ -120,7 +120,7 @@ body {
 
 /* Main */
 main {
-    background-color: cornflowerblue;
+    background-color: #a49ef7;
     /* Make main element to push foother down */
     flex: 1 0 auto;
 }
@@ -217,8 +217,7 @@ main {
     list-style: none;
 }
 p {
-    
-    text-align: justify;
+       text-align: justify;
 }
 /* seccion dj mixes */
 .podcasts {
@@ -226,14 +225,12 @@ p {
     flex-direction: column;
     align-items: flex-start;
 }
-
 .podcast-djmix {
     display: flex;
     align-items: center;
     margin: 20px 20px;
     padding: 20px 20px;
 }
-
 .podcast-image {
     width: 300px;
     height: 300px;
@@ -275,7 +272,6 @@ p {
 #contact select,
 #contact textarea {
     width: 100%;
-
 }
 #coments {
     display: flex;
@@ -303,8 +299,7 @@ a.btn-default {
     font-size: 13px;
     font-weight: bold;
     padding: 4px 4px;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .btn-default:hover {
     background-color: #f6bfc0;
@@ -317,13 +312,11 @@ a.btn-default {
     background-color: #facd48;
     padding: 4px 4px;
 }
-
 /* Footer */
 footer {
     background-color: #facd48;
 
 }
-
 #social-networks {
     text-align: center;
     padding: 10px 0;
@@ -331,14 +324,11 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #social-networks i {
     font-size: 120%;
     padding: 0 5%;
     color: #21339c;
 }
-
-
 /* Add media styles phones */
 
 /* Styles for medium devices (e.g., iPads) */
